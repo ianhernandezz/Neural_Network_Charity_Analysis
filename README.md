@@ -36,3 +36,50 @@ This new assignment consists of three technical analysis deliverables and a writ
     
     Deliverable 4: A Written Report on the Neural Network Model (README.md)
 
+
+    Overview of the analysis: Explain the purpose of this analysis.
+
+# Results
+
+**Data Preprocessing**
+
+What variable(s) are considered the target(s) for your model?
+
+* Module targeting variable is the "IS_SUCCESSFUL" column. 
+
+What variable(s) are considered to be the features for your model?
+
+* Each attemp is using every feature listed, but later on the optimization it will drop certain columns to refactor accuracy. 
+
+What variable(s) are neither targets nor features, and should be removed from the input data?
+
+* Initially "EIN" and "NAME" were dropped as we were instructed that these don't really affect much. 
+
+
+
+**Compiling, Training, and Evaluating the Model**
+
+
+How many neurons, layers, and activation functions did you select for your neural network model, and why?
+
+* The first attempt it has 2 hidden layers with HiddenLayer1 having 80 neurons and HiddenLayer2 having. 
+
+Were you able to achieve the target model performance?
+
+* In this first attemp the target was 75% or above, but it was nowhere near this. 
+
+
+
+What steps did you take to try and increase model performance?
+
+* One of the things one was to add hidden layers. As well as, the activation type, the epoch quantity was changed, and the saving frequency. 
+
+
+# Summary
+
+ Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
+
+
+The final model accuracy was around 57%. The reason being to the understanding of these models is the drop of the initial two columns that were thought to be not that impactful. It can be deduced that those two features are a big factor to the accuracy level of these models. 
+
+As it is learned that the more data there is available the more likely the accuracy level will be stronger. So a recommendation would be to just keep adding data, specially since some crucial features will be dropped. 
