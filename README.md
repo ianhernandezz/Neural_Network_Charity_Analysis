@@ -67,12 +67,15 @@ How many neurons, layers, and activation functions did you select for your neura
 Were you able to achieve the target model performance?
 
 * In this first attemp the target was 75% or above, but it was nowhere near this. 
-
-
+![](./Images/HiddenLayer1st.png)
+![](./Images/Attempt1.png)
+![](./Images/Attempt1Accu.png)
 
 What steps did you take to try and increase model performance?
 
 * One of the things one was to add hidden layers. As well as, the activation type, the epoch quantity was changed, and the saving frequency. 
+
+![](./Images/addingHiddenLayer.png)
 
 
 # Summary
@@ -80,6 +83,9 @@ What steps did you take to try and increase model performance?
  Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
 
 
-The final model accuracy was around 57%. The reason being to the understanding of these models is the drop of the initial two columns that were thought to be not that impactful. It can be deduced that those two features are a big factor to the accuracy level of these models. 
+The final model accuracy was around 57%. The reason being to the understanding of these models is the drop of the initial two columns that were thought to be not that impactful. It can be deduced that those two features are a big factor to the accuracy level of these models. However, the RandomForestAcccurcy was 0.778.
+
+![](./Images/RFA.png)
+![](./Images/F1scores.png)
 
 As it is learned that the more data there is available the more likely the accuracy level will be stronger. So a recommendation would be to just keep adding data, specially since some crucial features will be dropped. 
